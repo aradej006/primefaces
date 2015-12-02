@@ -1,0 +1,126 @@
+.ui-widget-content {
+    border: 2px solid #E7E7E7;
+    background: #ffffff;
+    color: #4f4f4f;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: 1px solid #E7E7E7;
+    background: #c4c4c4 url("/OrbeonForm/javax.faces.resource/images/ui-bg_highlight-hard_80_c4c4c4_1x100.png.jsf?ln=primefaces-aristo") 50% 50% repeat-x;
+    background: #c4c4c4 linear-gradient(top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));
+    background: #ECECEC -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0)));
+    background: #c4c4c4 -moz-linear-gradient(top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));
+    font-weight: normal;
+    color: #4f4f4f;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.7);
+}
+
+input {
+    background: white !important;
+    border: 1px solid #C5C5C5 !important;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    color: #4f4f4f !important;
+    text-shadow: none !important;
+    width: 100%;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight {
+    color: #4f4f4f;
+    font-weight: bold;
+    background: transparent !important;
+    text-shadow: none;
+}
+
+.centeredColumn {
+    text-align: center !important;
+}
+
+.centeredColumn:hover {
+    background-color: #eee;
+}
+
+th {
+    background: #1ba1e2 !important;
+    font-weight: normal !important;
+    color: #FFFFFF !important;
+    box-shadow: none !important;
+    text-shadow: 0px 1px 0px rgba(75, 75, 75, 0.7) !important;
+    font-size: 18px;
+    padding: 10px !important;
+}
+
+.ui-button .ui-button-text {
+    display: block;
+    outline: 0px !important;
+    line-height: normal;
+    margin: 0px;
+    border: 0px solid #6C6C6C !important;
+    box-shadow: none !important;
+    border-radius: 0px;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: 1px solid #E7E7E7;
+    font-weight: normal;
+    color: #E7E7E7;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.7);
+}
+
+.ui-state-hover, .ui-button .ui-button-text .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+
+}
+
+.delete {
+    position: relative;
+    width: 100%;
+    display: block;
+    line-height: normal;
+    margin: 0px;
+    color: #4F4F4F !important;
+    border: 0px solid #6C6C6C !important;
+    background: #FFFFFF !important;
+    box-shadow: none !important;
+    /* text-shadow: 0px 1px 0px rgba(78, 78, 78, 0.7) !important; */
+    border-radius: 0px;
+}
+
+.delete:hover {
+    background: #eee !important;
+}
+
+.delete:focus {
+    border: 0px solid !important;
+    outline: 0px solid !important;
+}
+
+.metroButton {
+    position: relative;
+    border-color: transparent;
+    background: #1ba1e2 !important;
+    font-weight: normal !important;
+    color: #FFFFFF !important;
+    box-shadow: none !important;
+    text-shadow: 0px 1px 0px rgba(75, 75, 75, 0.32) !important;
+    font-size: 18px !important;
+    padding: 4px 21px;
+    border-radius: 0px;
+    border: 0px solid !important;
+}
+
+.metroButton:hover {
+    background: #0072c6 !important;
+}
+
+h2 {
+    font-size: 1.3em !important;
+    font-weight: 500 !important;
+}
+
+.tableFooter {
+    background: white !important;
+}
+
+tfoot td {
+    background: white !important;
+}
