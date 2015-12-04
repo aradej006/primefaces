@@ -1,4 +1,4 @@
-package eu.sii.pl.primefacestest;
+package eu.sii.pl.primefacestest.Running;
 
 
 import javax.annotation.PostConstruct;
@@ -15,7 +15,7 @@ public class TestBean implements Serializable{
 
     @PostConstruct
     public void sdas(){
-        world = "World";
+        world = "World!!!!";
     }
 
     public String getWorld() {

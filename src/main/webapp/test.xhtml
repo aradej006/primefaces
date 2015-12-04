@@ -8,12 +8,25 @@
 
 <h:head>
     <title>JSF 2.0 Hello World</title>
+    <h:outputStylesheet library="primefaces-theme" name="primefaces.css"/>
 </h:head>
+
 <h:body>
     <h2>JSF 2.0 Hello World Example - hello.xhtml</h2>
     <h:form>
-        <h:inputText value="#{testBean.world}"/>
+        <p:inputText value="#{testBean.world}"/>
         <p:outputLabel value="#{testBean.world}"/>
+        <br/>
+        <p:button value="Sdadsd"/>
+        <h:form>
+            <p:multiSelectListbox value="#{multiSelectView.selection}" effect="slide" header="Categories" showHeaders="true">
+                <f:selectItems value="#{multiSelectView.categories}" />
+            </p:multiSelectListbox>
+
+            <p:commandButton value="Save" icon="ui-icon-check" update="out" style="display:block;margin:10px 0" />
+
+            <h:outputText id="out" value="Value: #{multiSelectView.selection}" style="display:block" />
+        </h:form>
     </h:form>
 </h:body>
 </html>
